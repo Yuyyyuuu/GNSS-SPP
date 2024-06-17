@@ -1,39 +1,31 @@
-# GNSS-SPP: GNSS Signal Processing and Positioning
+# GNSS-SPP: Real-time GNSS Data Acquisition and PVT Solution
 
-## Introduction
-
-GNSS-SPP is a software project developed using standard C/C++ languages, designed to operate on a PC platform to fetch real-time data such as pseudoranges, Doppler frequency shifts, and broadcast ephemerides from an OEM719 board card. The project aims to perform navigation, positioning, velocity (PVT) calculations, and output the positioning results and accuracy statistics in real-time within the Windows command line environment.
+GNSS-SPP is a project implemented in standard C/C++ that allows for real-time acquisition of pseudoranges, Doppler frequency shifts, and broadcast ephemeris data from an OEM719 board card on a PC platform. It performs navigation, positioning, and velocity (PVT) calculations and outputs the results along with accuracy statistics, providing real-time navigation under the Windows command line.
 
 ## Features
 
-- Real-time acquisition of GNSS data: Pseudoranges, Doppler frequency shifts, and broadcast ephemeris.
-- PVT solution: Navigation positioning, velocity, and time calculation.
-- Real-time navigation: Display of positioning results and accuracy statistics in the Windows command line.
-- Accuracy statistics: Output of positioning accuracy metrics.
+- **Real-time Data Acquisition**: Collects pseudoranges, Doppler shifts, and ephemeris data.
+- **PVT Calculation**: Computes position, velocity, and time from GNSS signals.
+- **Accuracy Statistics**: Provides detailed statistics on the accuracy of the positioning.
+- **Windows Command Line Interface**: Offers a real-time interface for navigation output.
 
 ## System Requirements
 
-- Operating System: Windows
-- Compiler: Standard C/C++ compiler (e.g., GCC, MSVC)
-- Hardware: GNSS receiver compatible with the OEM719 board card
+- A PC running Windows OS.
+- A compatible GNSS receiver with OEM719 board card.
+- C/C++ compiler (e.g., GCC, MSVC).
 
 ## Installation
 
-1. Clone or download the repository to your local machine:
+1. Clone the repository:
    ```sh
    git clone https://github.com/Yuyyyuuu/GNSS-SPP.git
    ```
-2. Open the project directory and compile the source code using your preferred IDE or command-line compiler.
-3. Ensure your PC is equipped with an OEM719 board card and that the necessary drivers are installed.
+2. Navigate to the project directory.
+3. Compile the source code using your preferred C/C++ compiler.
 
 ## Usage
 
-1. Execute the compiled program.
-2. Monitor the real-time positioning data and accuracy statistics displayed in the Windows command line.
-
-## Contributing
-
-Contributions to the project are welcome. This includes:
-- Reporting bugs
-- Submitting fixes
-- Proposing new features
+1. Ensure your GNSS receiver is connected and recognized by the system.
+2. Run the compiled executable.
+3. Observe the real-time data and statistics in the command line output.
